@@ -42,8 +42,8 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.spiderpanel.app"
-        minSdkVersion 21
+        applicationId "com.spider_vpn.app"
+        minSdkVersion flutter.minSdkVersion
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
