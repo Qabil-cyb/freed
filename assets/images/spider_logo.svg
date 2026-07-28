@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="250" height="250">
+  <!-- پس‌زمینه شفاف است، در صورت نیاز می‌توانید یک تگ rect برای پس‌زمینه اضافه کنید -->
+
+  <g fill="none" stroke="#111111" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- پاهای سمت چپ -->
+    <path d="M 42 45 L 20 20 L 5 40" />
+    <path d="M 40 50 L 15 45 L 5 65" />
+    <path d="M 40 55 L 15 70 L 10 90" />
+    <path d="M 44 60 L 30 80 L 35 95" />
+    
+    <!-- پاهای سمت راست -->
+    <path d="M 58 45 L 80 20 L 95 40" />
+    <path d="M 60 50 L 85 45 L 95 65" />
+    <path d="M 60 55 L 85 70 L 90 90" />
+    <path d="M 56 60 L 70 80 L 65 95" />
+  </g>
+
+  <!-- شکم عنکبوت -->
+  <ellipse cx="50" cy="70" rx="14" ry="20" fill="#111111" />
+  
+  <!-- سر و سینه (Cephalothorax) -->
+  <circle cx="50" cy="45" r="10" fill="#111111" />
+  
+  <!-- نیش‌ها (Fangs) -->
+  <path d="M 45 38 L 43 28 L 47 33 Z" fill="#111111" />
+  <path d="M 55 38 L 57 28 L 53 33 Z" fill="#111111" />
+  
+  <!-- چشم‌ها -->
+  <circle cx="46" cy="42" r="2" fill="#ffffff" />
+  <circle cx="54" cy="42" r="2" fill="#ffffff" />
+</svg>
